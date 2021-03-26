@@ -15,10 +15,10 @@ In addition, we have proposed Coached Attention Gates that can regulate the infe
 ## Quick tour
 This is a pytorch implementation of the collocative learning method proposed in our TMI paper [1].
 
-To run the code, pleasure make sure you have prepared your IFE data following the same structure as follows (you can also refer to the examplar data in this repository):
+To run the code, please make sure you have prepared your IFE data following the same structure as follows (you can also refer to the examplar data in this repository):
 
-../imgs        (the IFE images with name pattern XXX)
-../
+../imgs        (the IFE images)
+../img_detail    (the csv file that contains additional information) 
  
 ## Preprocessing
 To cut IFE images into lanes:
@@ -78,10 +78,10 @@ python test.py -index 0
 
 ## In case you need to cite our paper, please use
 
-[1] X. -Y. Wei et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
+[1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
 
 ```bibtex
-@ARTICLE{9385115,  
+@ARTICLE{Wei_TMI_2021,  
     author={X. -Y. {Wei} and Z. -Q. {Yang} and X. -L. {Zhang} and G. {Liao} and A. -L. {Sheng} and S. {Kevin Zhou} and Y. {Wu} and L. {Du}},  
     journal={IEEE Transactions on Medical Imaging},   
     title={Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis},    
