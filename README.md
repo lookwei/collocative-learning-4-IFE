@@ -1,4 +1,4 @@
-# collocative-learning-4-IFE
+## collocative-learning-4-IFE
 
 Immunofixation Electrophoresis (IFE) analysis is of great importance to the diagnosis of Multiple Myeloma, which is among the top-9 cancer killers in the United States, but has rarely been studied in the context of deep learning. Two possible reasons are: 
 
@@ -12,7 +12,7 @@ In addition, we have proposed Coached Attention Gates that can regulate the infe
 
 ![framework](https://github.com/lookwei/collocative-learning-4-IFE/blob/main/framework.png)
 
-# Quick tour
+## Quick tour
 This is a pytorch implementation of Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis.
 
 Before training, you need to prepare your datatset correctly. To avoid mistakes, please refer to the image storage in our repository. 
@@ -29,18 +29,18 @@ ImageSegmentation.segment_resized_G003_img(csv_path = csv_path)
 
 Here is how to quickly construct collocative tensor.
 
-"""
+```
 from Collaboration import *
 create_similarity_dataset(csv_path = csv_path, save_path = "../sim_data/euc_100.npy")
-"""
+```
 
 To train a model with the prepared dataset:
 
-"""
+```
 from params import *
 from Model_Train import *
 train(args)
-"""
+```
 
 Alternatively, you can just run this code in terminal which contains the above three steps.
 
@@ -51,7 +51,7 @@ python train.py
 ## Visualization
 CAM was built for users to get a better understanding of models. Here is a short snippet illustrating its usage:
 
-"""
+```
 from Visualization import *
 index = 0
 model_path = '../final_model/ResNet_fold_0.pkl'
@@ -62,12 +62,12 @@ show = Grad_Cam_Main(index=index,
                      csv_path = csv_path,
                      model_path= model_path)
 bind_value = show()
-"""
+```
 
 Or you can use the example script like below to show the CAM.
 
-"""
+```
 python test.py -index 0
-"""
+```
 
-# Citation
+## Citation
