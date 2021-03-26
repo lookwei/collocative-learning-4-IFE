@@ -1,4 +1,4 @@
-## collocative-learning-4-IFE
+## Collocative-learning for Immunofixation Electrophoresis (IFE) Analysis 
 
 Immunofixation Electrophoresis (IFE) analysis is of great importance to the diagnosis of Multiple Myeloma, which is among the top-9 cancer killers in the United States, but has rarely been studied in the context of deep learning. Two possible reasons are: 
 
@@ -13,12 +13,15 @@ In addition, we have proposed Coached Attention Gates that can regulate the infe
 ![framework](https://github.com/lookwei/collocative-learning-4-IFE/blob/main/framework.png)
 
 ## Quick tour
-This is a pytorch implementation of Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis.
+This is a pytorch implementation of the collocative learning method proposed in our TMI paper [1].
 
-Before training, you need to prepare your datatset correctly. To avoid mistakes, please refer to the image storage in our repository. 
+To run the code, pleasure make sure you have prepared your IFE data following the same structure as follows (you can also refer to the examplar data in this repository):
+
+../imgs        (the IFE images with name pattern XXX)
+../
  
-## Train
-This is an example of pipeline used for that can slice IFE images into lanes.
+## Preprocessing
+To cut IFE images into lanes:
 
 ```
 from Segmentation import *
@@ -27,13 +30,15 @@ ImageSegmentation = DTWImageSegmentation('../imgs/', '../img_blob/')
 ImageSegmentation.segment_resized_G003_img(csv_path = csv_path)
 ```
 
-Here is how to quickly construct collocative tensor.
+## Tensor construction
+To construct a collocative tensor:
 
 ```
 from Collaboration import *
 create_similarity_dataset(csv_path = csv_path, save_path = "../sim_data/euc_100.npy")
 ```
 
+## Start training
 To train a model with the prepared dataset:
 
 ```
@@ -42,7 +47,8 @@ from Model_Train import *
 train(args)
 ```
 
-Alternatively, you can just run this code in terminal which contains the above three steps.
+## All together
+Alternatively, you can run all these steps together with one line:
 
 ```
 python train.py
@@ -72,7 +78,7 @@ python test.py -index 0
 
 ## Citation
 
-X. -Y. Wei et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
+[1] X. -Y. Wei et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
 
 ```bibtex
 @ARTICLE{9385115,  
