@@ -8,7 +8,7 @@ Immunofixation Electrophoresis (IFE) analysis is of great importance to the diag
 
 We propose to address these issues with collocative learning, in which a collocative tensor has been constructed to transform the binary relations into unary relations that are compatible with conventional deep networks, and a location-label-free method that utilizes the Grad-CAM saliency map for evidence backtracking has been proposed for accurate localization. 
 
-In addition, we have proposed Coached Attention Gates that can regulate the inference of the learning to be more consistent with human logic and thus support the evidence backtracking. The experimental results show that the proposed method has obtained a performance gain over its base model ResNet18 by $741.30\%$ in IoU and also outperformed popular deep networks of DenseNet, CBAM, and Inception-v3.
+In addition, we have proposed Coached Attention Gates that can regulate the inference of the learning to be more consistent with human logic and thus support the evidence backtracking. The experimental results show that the proposed method has obtained a performance gain over its base model ResNet18 by 741.30% in IoU and also outperformed popular deep networks of DenseNet, CBAM, and Inception-v3.
 
 ![framework](https://github.com/lookwei/collocative-learning-4-IFE/blob/main/framework.png)
 
@@ -71,3 +71,17 @@ python test.py -index 0
 ```
 
 ## Citation
+
+X. -Y. Wei et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
+
+```bibtex
+@ARTICLE{9385115,  
+    author={X. -Y. {Wei} and Z. -Q. {Yang} and X. -L. {Zhang} and G. {Liao} and A. -L. {Sheng} and S. {Kevin Zhou} and Y. {Wu} and L. {Du}},  
+    journal={IEEE Transactions on Medical Imaging},   
+    title={Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis},    
+    year={2021},  
+    volume={},  
+    number={},  
+    pages={1-1},  
+    doi={10.1109/TMI.2021.3068404}}
+```
