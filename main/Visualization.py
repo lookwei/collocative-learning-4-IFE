@@ -175,12 +175,14 @@ class Grad_Cam_Main:
         heatmap = np.float32(heatmap) / 255 #BGR
         mix_img = heatmap + np.float32(cv2.cvtColor(np.array(img), cv2.COLOR_BGR2RGB)) / 255
         mix_img = mix_img / np.max(mix_img)
-
+        """
         plt.figure(figsize=(10,5))
         plt.yticks([])
         plt.xticks([])
         plt.imshow(cv2.cvtColor(np.uint8(255 * mix_img), cv2.COLOR_BGR2RGB))
-        cv2.imwrite('../imgs/cam_on_img.jpg', np.uint8(255 * mix_img))
+        """
+        cv2.imwrite('../imgs/test/cam_on_img.jpg', np.uint8(255 * mix_img))
+        print("cam has been saved into ../imgs/test/cam_on_img.jpg")
         return img
     
     

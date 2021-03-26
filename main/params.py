@@ -12,6 +12,8 @@ args = {
     
     "model_save_dir" : "../final_model/",
     "img_info_path" : "../img_detail/detail.csv",
-    "data_path" : "../sim_data/euc_100.npy"
+    "data_path" : "../sim_data/euc_100.npy",
     
+    "img_path" : "../imgs/",
+    "blob_path" : "../img_blob/"
 }
