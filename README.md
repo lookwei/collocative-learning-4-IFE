@@ -18,6 +18,7 @@ This is a pytorch implementation of the collocative learning method proposed in 
 To run the code, please make sure you have prepared your IFE data following the same structure as follows (you can also refer to the examplar data in this repository):
 
 ../imgs        (the IFE images)
+
 ../img_detail    (the csv file that contains additional information) 
  
 ## Preprocessing
