@@ -10,7 +10,7 @@ We propose to address these issues with collocative learning, in which a colloca
 
 In addition, we have proposed Coached Attention Gates that can regulate the inference of the learning to be more consistent with human logic and thus support the evidence backtracking. The experimental results show that the proposed method has obtained a performance gain over its base model ResNet18 by $741.30\%$ in IoU and also outperformed popular deep networks of DenseNet, CBAM, and Inception-v3.
 
-![framework]()
+![framework](https://github.com/lookwei/collocative-learning-4-IFE/blob/main/framework.png)
 
 # Quick tour
 This is a pytorch implementation of Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis.
@@ -19,6 +19,7 @@ Before training, you need to prepare your datatset correctly. To avoid mistakes,
  
 ## Train
 This is an example of pipeline used for that can slice IFE images into lanes.
+
 ```
 from Segmentation import *
 csv_path = "../img_detail/detail.csv"
@@ -27,12 +28,14 @@ ImageSegmentation.segment_resized_G003_img(csv_path = csv_path)
 ```
 
 Here is how to quickly construct collocative tensor.
+
 """
 from Collaboration import *
 create_similarity_dataset(csv_path = csv_path, save_path = "../sim_data/euc_100.npy")
 """
 
 To train a model with the prepared dataset:
+
 """
 from params import *
 from Model_Train import *
@@ -40,12 +43,14 @@ train(args)
 """
 
 Alternatively, you can just run this code in terminal which contains the above three steps.
+
 ```
 python train.py
 ```
 
 ## Visualization
 CAM was built for users to get a better understanding of models. Here is a short snippet illustrating its usage:
+
 """
 from Visualization import *
 index = 0
@@ -60,6 +65,7 @@ bind_value = show()
 """
 
 Or you can use the example script like below to show the CAM.
+
 """
 python test.py -index 0
 """
