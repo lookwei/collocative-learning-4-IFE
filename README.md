@@ -55,7 +55,7 @@ python train.py
 ```
 
 ## Visualization
-CAM was built for users to get a better understanding of models. Here is a short snippet illustrating its usage:
+To show the visualization result of the IFE (given by the index) as presented in our paper:
 
 ```
 from Visualization import *
@@ -70,13 +70,13 @@ show = Grad_Cam_Main(index=index,
 bind_value = show()
 ```
 
-Or you can use the example script like below to show the CAM.
+Or you can use:
 
 ```
 python test.py -index 0
 ```
 
-## Citation
+## In case you need to cite our paper, please use
 
 [1] X. -Y. Wei et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
 
