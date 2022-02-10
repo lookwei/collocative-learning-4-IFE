@@ -78,14 +78,14 @@ python test.py -index 0
 ```
 
 ## Datasets
-Due to the privacy issue, we cannot distribute the original IFE dataset used in the paper "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis". However, we creat a simulated dataset which is with the similar appearance and distributions as the original one. Our human technician have gone through the dataset to make sure that it resembles the orginal one to the maximun extent. The dataset is at .... We hope it can help initiate your IFE study and verify your methods. The distribution and performance of our method on this simulated dataset with the comparision to those of the original one are as follows.
+Due to the privacy issue, we cannot distribute the original IFE dataset used in the paper "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis". However, we creat a simulated dataset which is with the similar appearance and distributions as the original one. Our human technician have gone through the dataset to make sure that it resembles the orginal one to the maximun extent. The dataset is at ``https://drive.google.com/file/d/1Y00lAfxqbf8JJEtn66nehycEmOP_f9nx/view?usp=sharing`` We hope it can help initiate your IFE study and verify your methods. The distribution and performance of our method on this simulated dataset with the comparision to those of the original one are as follows.
 
-Label  | Non-M  | IgG-κ | IgG-λ  | IgA-$\kappa | &IgA-λ | IgM-κ  | IgM-λ | κ | λ 
+Label  | Non-M  | IgG-κ | IgG-λ  | IgA-κ | IgA-λ | IgM-κ  | IgM-λ | κ | λ 
 :-----------: |:-----------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: 
 Original | 2954  | 435  | 392  | 136 | 198 | 78 | 27 | 37 | 95
 Simulated | 3056 | 285| 433 | 148 | 154 | 67 | 33 | 45 | 100
 
-Label  | F1-score (%)
+   | F1-score (%)
 :------------: |:-------------:
 Original | 94.20%  
 Simulated | 98.38% 
