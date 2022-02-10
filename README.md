@@ -85,7 +85,7 @@ Label  | Non-M  | IgG-κ | IgG-λ  | IgA-κ | IgA-λ | IgM-κ  | IgM-λ | κ | �
 Original | 2954  | 435  | 392  | 136 | 198 | 78 | 27 | 37 | 95
 Simulated | 3056 | 285| 433 | 148 | 154 | 67 | 33 | 45 | 100
 
-   | F1-score (%)
+Model  | F1-score (%)
 :------------: |:-------------:
 Original | 94.20%  
 Simulated | 98.38% 
@@ -110,5 +110,7 @@ Simulated | 98.38%
 ## Further reading
 
 The collocative learning has also been used for ECG-base eating monitoring and image retrieval. See paper below if you're interested.
+
 [1] X. -L. Zhang, Z. -Q. Yang; D. -M. Jiang et al., "Cardiac Evidence Mining for Eating Monitoring using Collocative Electrocardiogram Imagining," TechRxiv. Preprint. https://doi.org/10.36227/techrxiv.18093275.v2 
+
 [2] X. -L. Zhang, Z. -Q. Yang, H. Tian et al., "Indicative Image Retrieval: Turning Blackbox Learning into Grey," arXiv. Preprint. arXiv:2201.11898, 2022.
