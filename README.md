@@ -1,4 +1,4 @@
-## Collocative-learning for Immunofixation Electrophoresis (IFE) Analysis 
+## [Collocative-learning for Immunofixation Electrophoresis (IFE) Analysis](https://doi.org/10.1109/TMI.2021.3068404) 
 
 Immunofixation Electrophoresis (IFE) analysis is of great importance to the diagnosis of Multiple Myeloma, which is among the top-9 cancer killers in the United States, but has rarely been studied in the context of deep learning. Two possible reasons are: 
 
@@ -90,21 +90,20 @@ Model  | F1-score (%)
 Original | 94.20%  
 Simulated | 98.38% 
 
-
 ## Citation
 
-[1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, https://doi.org/10.1109/TMI.2021.3068404
+[1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang, G. Liao, A. -L. Sheng, S. K. Zhou, Y. -K. Wu, L. Du, "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, vol. 40, no. 7, pp. 1898-1910, July 2021, doi: 10.1109/TMI.2021.3068404. 
 
 ```bibtex
-@ARTICLE{Wei_TMI_2021,  
-    author={X. -Y. {Wei} and Z. -Q. {Yang} and X. -L. {Zhang} and G. {Liao} and A. -L. {Sheng} and S. {Kevin Zhou} and Y. {Wu} and L. {Du}},  
-    journal={IEEE Transactions on Medical Imaging},   
-    title={Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis},    
-    year={2021},  
-    volume={},  
-    number={},  
-    pages={1-1},  
-    doi={10.1109/TMI.2021.3068404}}
+@ARTICLE{9385115,  
+author={Wei, Xiao-Yong and Yang, Zhen-Qun and Zhang, Xu-Lu and Liao, Ga and Sheng, Ai-Lin and Zhou, S. Kevin and Wu, Yongkang and Du, Liang},  
+journal={IEEE Transactions on Medical Imaging},   
+title={Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis},   
+year={2021},  
+volume={40},  
+number={7},  
+pages={1898-1910},  
+doi={10.1109/TMI.2021.3068404}}
 ```
 
 ## Further reading
