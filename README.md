@@ -92,7 +92,7 @@ Simulated | 98.38%
 
 ## Citation
 
-[1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang, G. Liao, A. -L. Sheng, S. K. Zhou, Y. -K. Wu, L. Du, "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, vol. 40, no. 7, pp. 1898-1910, July 2021, doi: 10.1109/TMI.2021.3068404, https://doi.org/10.1109/TMI.2021.3068404. 
+[1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang, G. Liao, A. -L. Sheng, S. K. Zhou, Y. -K. Wu, L. Du, "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, vol. 40, no. 7, pp. 1898-1910, July 2021, https://doi.org/10.1109/TMI.2021.3068404. 
 
 ```bibtex
 @ARTICLE{9385115,  
