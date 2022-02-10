@@ -78,7 +78,9 @@ python test.py -index 0
 ```
 
 ## Datasets
-Due to the privacy issue, we cannot distribute the original IFE dataset used in the paper "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis". However, we creat a simulated dataset which is with the similar appearance and distributions as the original one. Our human technician have gone through the dataset to make sure that it resembles the orginal one to the maximun extent. The dataset can be found at ... 
+Due to the privacy issue, we cannot distribute the original IFE dataset used in the paper "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis". However, we creat a simulated dataset which is with the similar appearance and distributions as the original one. Our human technician have gone through the dataset to make sure that it resembles the orginal one to the maximun extent. The dataset is at .... We hope it can help initiate your IFE study and verify your methods. The distribution and performance of our method on this simulated dataset with the comparision to those of the original one are as follows.
+
+Add a table here...
 
 ## Citation
 
