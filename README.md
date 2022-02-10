@@ -78,7 +78,7 @@ python test.py -index 0
 ```
 
 ## Datasets
-Due to the privacy issue, we cannot distribute the original IFE dataset used in the paper "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis". However, we creat a simulated dataset which is with the similar appearance and distributions as the original one. Our human technicians have gone through the dataset to make sure that it resembles the orginal one to the maximun extent. The dataset is at ``https://drive.google.com/file/d/1Y00lAfxqbf8JJEtn66nehycEmOP_f9nx/view?usp=sharing`` We hope it can help initiate your IFE study and verify your methods. The distribution and performance of our method on this simulated dataset with the comparision to those of the original one are as follows.
+Due to the privacy issue, we cannot distribute the original IFE dataset used in the paper "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis". However, we creat a simulated dataset which is with the similar appearance and distributions as the original one. Our human technicians have gone through the dataset to make sure that it resembles the orginal one to the maximun extent. The dataset is at ``../imgs/Simulated_IFE_imgs.zip`` We hope it can help initiate your IFE study and verify your methods. The distribution and performance of our method on this simulated dataset with the comparision to those of the original one are as follows.
 
 Label  | Non-M  | IgG-κ | IgG-λ  | IgA-κ | IgA-λ | IgM-κ  | IgM-λ | κ | λ 
 :-----------: |:-----------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: 
@@ -93,7 +93,7 @@ Simulated | 98.38%
 
 ## Citation
 
-[1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
+[1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, https://doi.org/10.1109/TMI.2021.3068404
 
 ```bibtex
 @ARTICLE{Wei_TMI_2021,  
@@ -113,4 +113,4 @@ The collocative learning has also been used for ECG-base eating monitoring and i
 
 [1] X. -L. Zhang, Z. -Q. Yang; D. -M. Jiang et al., "Cardiac Evidence Mining for Eating Monitoring using Collocative Electrocardiogram Imagining," TechRxiv. Preprint. https://doi.org/10.36227/techrxiv.18093275.v2 
 
-[2] X. -L. Zhang, Z. -Q. Yang, H. Tian et al., "Indicative Image Retrieval: Turning Blackbox Learning into Grey," arXiv. Preprint. arXiv:2201.11898, 2022.
+[2] X. -L. Zhang, Z. -Q. Yang, H. Tian et al., "Indicative Image Retrieval: Turning Blackbox Learning into Grey," arXiv. Preprint. https://arxiv.org/abs/2201.11898
