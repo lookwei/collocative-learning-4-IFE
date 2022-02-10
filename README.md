@@ -77,7 +77,10 @@ Or you can use:
 python test.py -index 0
 ```
 
-## In case you need to cite our paper, please use
+## Datasets
+Due to the privacy issue, we cannot distribute the original IFE dataset used in the paper "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis". However, we creat a simulated dataset which is with the similar appearance and distributions as the original one. Our human technician have gone through the dataset to make sure that it resembles the orginal one to the maximun extent. The dataset can be found at ... 
+
+## Citation
 
 [1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
 
@@ -92,3 +95,7 @@ python test.py -index 0
     pages={1-1},  
     doi={10.1109/TMI.2021.3068404}}
 ```
+
+## Further reading
+
+The collocative learning has also been used for ECG-base eating monitoring and image retrieval. See paper below if you're interested.
