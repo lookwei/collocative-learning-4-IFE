@@ -82,6 +82,17 @@ Due to the privacy issue, we cannot distribute the original IFE dataset used in 
 
 Add a table here...
 
+Label  | Non-M  | IgG-$\kappa$ | IgG-$\lambda$  | IgA-$\kappa | &IgA-$\lambda$ | IgM-$\kappa$  | IgM-$\lambda$ | $\kappa$ | $\lambda$ 
+:---------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: |:---------: 
+True  | 2954  | 435  | 392  | 136 | 198 | 78 | 27 | 37 | 95
+Fake | 3056 | 285| 433 | 148 | 154 | 67 | 33 | 45 | 100
+
+Label  | F1-score (%)
+:---------: |:---------:
+True  | 94.20%  
+Fake | 3056 
+
+
 ## Citation
 
 [1] X. -Y. Wei, Z. -Q. Yang, X. -L. Zhang et al., "Deep Collocative Learning for Immunofixation Electrophoresis Image Analysis," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2021.3068404.
