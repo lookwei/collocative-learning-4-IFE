@@ -1,0 +1,9 @@
+0: Non-protein
+1: IGG-KAP
+2: IGG-LAM
+3: IGA-KAP
+4: IGA-LAM
+5: IGM-KAP
+6: IGM-LAM
+7: KAP
+8: LAM
